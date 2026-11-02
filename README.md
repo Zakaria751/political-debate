@@ -9,7 +9,7 @@ Built with Gradio. Max 10 rounds.
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
-copy .env.example .env   # then put your OpenRouter key in .env
+copy .env   # then put your OpenRouter key in .env
 python app.py
 ```
 Open http://127.0.0.1:7860
